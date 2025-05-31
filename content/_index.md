@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2025-05-31
 type: landing
 
 sections:
@@ -11,11 +11,11 @@ sections:
         Wowchemy
         Research Group
       image:
-        filename: welcome.jpg
+        filename: logan2023.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        I have a PhD in Curriculum, Instruction, and the Science of Learning. I study information behavior across higher education. 
   
   - block: collection
     content:
