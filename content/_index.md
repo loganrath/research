@@ -8,8 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Logan Rath, PhD
       image:
         filename: logan2023.jpg
       text: |

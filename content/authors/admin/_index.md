@@ -1,24 +1,24 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Logan Rath
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Logan
+last_name: Rath
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Librarian. Researcher. Adjunct Instructor.
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: SUNY Brockport
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Bio coming soon.
 
 interests:
   - Artificial Intelligence
