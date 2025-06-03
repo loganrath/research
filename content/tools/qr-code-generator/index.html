@@ -3,23 +3,22 @@ title: QR Code Generator
 date: 2025-05-01
 summary: Create custom QR codes with text or URLs and color options.
 ---
-    <h2>QR Code Data:</h2>
-    <div class="row">
-      <div class="col-sm-6">
-        <label for="data">Data:</label>
-        <input type="text" id="data" placeholder="Enter text or URL" class="w-75" required>
-      </div>
-      <div class="col-sm-3">
-        <label for="color">Color:</label>
-        <input type="color" id="color" value="#000000">
-      </div>
-      <div class="col-sm-3">
-        <button id="generate">Generate</button>
-      </div>
+<h2 class="text-2xl font-bold">QR Code Data:</h2>
+<div class="flex flex-wrap mt-4">
+  <div class="w-full sm:w-1/2 mb-4">
+    <label for="data" class="block text-sm font-medium text-gray-700">Data:</label>
+    <input type="text" id="data" placeholder="Enter text or URL" class="mt-1 block w-3/4 border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-blue-500" required>
   </div>
-  <h2 class="mt-3">Generated QR Code:</h2>
-  <img id="qrCode" alt="Your QR Code will appear here">
-
+  <div class="w-full sm:w-1/4 mb-4">
+    <label for="color" class="block text-sm font-medium text-gray-700">Color:</label>
+    <input type="color" id="color" class="mt-1 block w-full border border-gray-300 rounded-md">
+  </div>
+  <div class="w-full sm:w-1/4 mb-4 flex items-end">
+    <button id="generate" class="w-full bg-blue-500 text-white font-semibold py-2 rounded-md hover:bg-blue-600">Generate</button>
+  </div>
+</div>
+<h2 class="mt-6 text-2xl font-bold">Generated QR Code:</h2>
+<img id="qrCode" alt="Your QR Code will appear here" class="mt-4">
 
   <script>
     document.getElementById('generate').addEventListener('click', function() {
