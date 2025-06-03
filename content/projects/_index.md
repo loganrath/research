@@ -1,5 +1,5 @@
 ---
-title: Tools
+title: Projects
 
 # Listing view
 view: compact
